@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KAIZEN_PA.Views.Errores">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Entry Placeholder="" x:Name="error"/>
+            
+            
+            <Label Text="          VISUALIZACIONON DE ERRORES"  />
+
+
+
+            <StackLayout BackgroundColor="#C3C3C3" AnchorY="200" AnchorX="200" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+                <Label Text="" x:Name="fallas" />
+
+            </StackLayout>
+
+
+            <StackLayout >
+                <Button Text="ENVIAR" x:Name="boton" Clicked="PULSO" />
+
+            </StackLayout>
+        </StackLayout>
+     
+        
+    </ContentPage.Content>
+</ContentPage>
